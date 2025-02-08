@@ -1,0 +1,23 @@
+const accountId = 24
+let email = "rishab.khuntia@gmail.com"
+var accountpassword = "123"
+var accountCity = "Jaipur"
+
+state = "Texas"  // even when you dont use any let or const still it reserves a memory for you
+
+
+let accountState; // if you declare a variable and not assign a value to it then it stores undefined to it.
+
+// accountId = 12 not allowed
+
+// don't use var because of issues in block scope and functional scope
+
+// let always works with scoping
+
+email = "abc@gmail.com"
+accountpassword = "456"
+accountCity = "Jajpur"
+
+console.log(accountId);
+
+console.table([email,accountCity, accountId, accountpassword]);
