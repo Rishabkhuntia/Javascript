@@ -1,0 +1,30 @@
+"use strict";  // treat all js code as new versions
+
+
+// alert(3 + 3) // if we do this in the browser then it will show a pop up which run the javascript in a dom
+// but if we do here then it will run in nodejs which does not have the functionality to run here
+
+console.log(3 + 
+     3)   // code readability must be high
+
+
+
+let name = "Rishab"
+let age = 27
+let isLoggedIn = false
+
+// datatypes
+
+
+// number => 2 to the pow 53
+// big int
+// string => ""
+// boolean => true/false
+// null => standalone value , means a empty value, also means does ""
+// undefined => variable declared but value not assigned
+// symbol => uniqueness
+
+// object =>
+
+console.log(typeof null); object // type of null is an object but still considered as a datatype
+console.log(typeof undefined); undefined // type of undefined is undefined
