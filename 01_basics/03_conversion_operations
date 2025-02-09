@@ -1,0 +1,38 @@
+let score = null // if the score is not a number like a mix of number and chars
+
+
+console.log(typeof score)
+console.log(typeof(score))
+
+
+
+let valueInNumber = Number(score) // the score in string or any other format gets converted to Number datattype
+
+console.log(typeof(valueInNumber))
+console.log(valueInNumber) 
+
+// how does the conversions happend when you convert something to number
+// "33" => 33
+// "33abc" => NaN
+// true => 1; false => 0
+// null => 0
+// undefined => NaN
+
+let isLoggedIn = 1
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+
+console.log(booleanIsLoggedIn)
+
+// conversion of value to boolean
+
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
+
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+
+console.log(typeof(stringNumber))
